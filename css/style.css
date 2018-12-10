@@ -1,0 +1,54 @@
+#headerSection{
+    background: url('../img/header.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    height: 92vh;
+}
+.navbar{
+    border-bottom: 2px solid #1e7e34;
+}
+.navbar .navbar-brand{
+    color:#1e7e34;
+}
+.nav-link:hover{
+    color: #1e7e34 !important ;
+}
+.navbar-brand:hover{
+    color: #1e7e34 !important ;
+}
+.btn-outline-primary:hover{
+    background-color: #1e7e34;
+}
+#headerSection .overlay{
+    background-color: rgba(0, 0, 0, .1);
+}
+#headerSection .row{
+    height: 92vh;
+}
+#features .fab{
+    font-size: 50px;
+    color: #1e7e34;
+}
+.colr{
+color: #1e7e34;
+}
+#ourHistory h2{
+    border-left: 6px solid #1e7e34;
+    padding-left: 30px;
+    color: #1e7e34;
+}
+#ourHistory button{
+   margin-top: 30px;
+   margin-left: 150px;
+}
+#ourHistory p{
+    line-height: 28px;
+}
+#team .card{
+    border: none;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#team .card:hover{
+    opacity: 1;
+}
